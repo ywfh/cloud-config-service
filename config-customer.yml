@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cloud-order-service
+  cloud:
+    config:
+      label: main
+      name: config-customer
+      profile: dev
+      
+server:
+  port: 80
