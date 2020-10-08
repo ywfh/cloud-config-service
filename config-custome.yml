@@ -1,5 +1,8 @@
 spring:
   application:
     name: cloud-order-service
+  cloud: 
+    config: 
+      profile: dev
 server:
   port: 80
